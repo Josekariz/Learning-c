@@ -1,12 +1,14 @@
 #include <stdio.h>
-int main()
+int main(void)
 /**
  * main - method to run
  * ./pointer - runs the code
  * complier - gcc -o hello pointer.c
 */
 {
-    // Here I am creating an integer called x and assigining it the value of 10.
+    /* Here I am creating an integer called x
+    *and assigining it the value of 10.
+    */
     int x = 10;
 
     /* When * is placed after the data type, it means that it is a pointer.
@@ -40,7 +42,7 @@ int main()
     * but printf  does not know what type of pointer that is being passed as an argument
     * So we cast the pointer to a generic pointer using (void *) sicnce there are a couple of pointer types eg. to a pointer, to a function, to data, to a constant etc.
     */
-    printf("The value of y is: %p\n", (void*)px);
+    printf("The value of y is: %p\n", (void *)px);
 
 
     // prints "The value of y is: 10"
