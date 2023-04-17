@@ -15,5 +15,7 @@ Welcome to my journey through the exciting world of C programming! 👋
 
 So if you're just starting out on your own C programming journey, don't be afraid to take that first step. With determination, hard work, and a good sense of humor, you too can become a galactic Coder! 🚀
 
+Compiler used :smile gcc -o (name) (name).c
+
 
 
