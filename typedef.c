@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
  * typedef in C is a way to create an alias or shorthand for an existing data type. It allows us to define a new name for a type that already exists in our code. This can make our code easier to read and understand, especially when we are working with complex data types like structures or function pointers.
  *
